@@ -7,29 +7,6 @@
 :revealjs_height: 992
 :source-highlighter: highlightjs
 
-== Introduction
-This is the first slide of the presentation.
-It introduces the topic.
-
-== Key Concepts
-
-[%step]
-* Concept A 
-* Concept B 
-* Concept C 
-
-=== Concept A
-
-This section dives deeper into Concept A.
-
-=== Concept B
-
-This section dives deeper into Concept B.
-
-=== Concept C
-
-This section dives deeper into Concept C.
-
 == Case Study
 
 [plantuml,diag00,svg]
@@ -89,6 +66,25 @@ static String getJvmMajorVersion() {
     return version.replaceAll("(\\d+).+", "$1");
 }
 ----
+
+== Key Concepts
+
+[%step]
+* Concept A
+* Concept B
+* Concept C
+
+=== Concept A
+
+This section dives deeper into Concept A.
+
+=== Concept B
+
+This section dives deeper into Concept B.
+
+=== Concept C
+
+This section dives deeper into Concept C.
 
 == Conclusion
 Thank you for attending.
